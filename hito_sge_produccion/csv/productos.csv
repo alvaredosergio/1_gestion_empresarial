@@ -1,6 +1,7 @@
-NOMBRE;PROD.MENSUAL;CONSUMIBLES;
-Silla;5;patas;
-Mesa;2;tablas;
-Sofa;1;cojines;
-Lampara;5;bombilla;
-Cuadro;3;pintura;
+NOMBRE;PRD.MEN;COMPONT
+Silla;5;patas
+Mesa;2;tablas
+Sofa;1;cojines
+Lampara;5;bombilla
+Cuadro;3;pintura
+Lampara;2;hierros

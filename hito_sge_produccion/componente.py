@@ -1,4 +1,4 @@
-class Consumible:
+class Componente:
     def __init__(self, nombre,costo,categoria,proveedor):
         self.nombre = nombre
         self.costo = costo
@@ -6,7 +6,7 @@ class Consumible:
         self.proveedor = proveedor
 
     def __str__(self):
-        return self.nombre + " " + self.costo + " " + self.categoria + " " + self.proveedor
+        return self.nombre + "\t\t" + self.costo + "€\t\t" + self.categoria + "\t\t" + self.proveedor
 
     def toCSV(self):
         return self.nombre + ";" + self.costo + ";" + self.categoria + ";" + self.proveedor + ";"
