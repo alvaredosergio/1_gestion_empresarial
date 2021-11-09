@@ -5,7 +5,7 @@ from csv import *
 
 def comandoInicial():
         os.system ("cls")
-        print("Bienvenido al Gestor de Producción.")
+        print("Bienvenido al GESTOR DE PRODUCCIÓN.")
         print("¿Qué desea realizar?\n-------------------------")
         print("| 1 - Visualizar CSV \t|\n| 2 - Crear registro \t|\n| 3 - Opciones extras \t|")
         print("-------------------------")
@@ -20,7 +20,7 @@ def priMenu(entrada):
     elif entrada == "2":
         os.system ("cls")
         print("¿Qué CSV desea utilizar?\n-------------------------")
-        print("| 1 - Productos \t|\n| 2 - Consumibles \t|")
+        print("| 1 - Productos \t|\n| 2 - Componentes \t|")
         print("-------------------------")
         input04 = input()
         if input04 == "1":
@@ -31,7 +31,7 @@ def priMenu(entrada):
             inp02 = input()
             print("COMPONENTE del producto: ")
             inp03 = input()
-            crearRegistro(inp01,inp02,inp03)
+            crearProducto(inp01,inp02,inp03)
         elif input04 == "2":
             os.system ("cls")
             print("NOMBRE del componente: ")
@@ -42,7 +42,7 @@ def priMenu(entrada):
             inp03 = input()
             print("PROVEEDOR: ")
             inp04 = input()
-            crearRegistro(inp01,inp02,inp03,inp04)
+            crearComponente(inp01,inp02,inp03,inp04)
         else:
             print("Opción incorrecta. Intentelo de nuevo.")
 
@@ -88,9 +88,15 @@ def visuCsv(entrada):
     else:
         print("El csv no es correcto. Intentelo de nuevo.")
 
-def crearRegistro(nombre,prodMen,componente):
+def crearProducto(nombre,prodMen,componente):
     nuevoRegistro = nombre + ";" + prodMen + ";" + componente + "\n"
     file = open('csv/productos.csv', 'a')
+    file.write(nuevoRegistro)
+    file.close
+
+def crearComponente(nombre,costo,categoria,proveedor):
+    nuevoRegistro = nombre + ";" + costo + ";" + categoria + ";" + proveedor + "\n"
+    file = open('csv/componentes.csv', 'a')
     file.write(nuevoRegistro)
     file.close
 
