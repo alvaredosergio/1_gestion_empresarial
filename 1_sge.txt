@@ -1,0 +1,43 @@
+SGE (Sistema Gestión Empresarial)
+---------------------------------
+Aplicación que permite a todos los trabajadores de una empresa
+realizar todos los procesos y actividades en una aplicación común.
+- Configurado como un SaaS (Software as a service). El usuario no
+  no tiene un Software instalado en su dispositivo, accede desde 
+  la web. Así resulta más facil al servicio tecnico mantenerlo 
+  actualizado y y resolver necesidades rápido.
+
+ERP (Enterprise Resource Planning)
+----------------------------------
+Software de planificación de recursos empresariales.
+- Integra todos los procesos de la empresa en un único sistema: compras,
+  ventas, recursos humanos, finanzas, stocks, publicidad, etc.
+- Se compone de varias aplicaciones o modulos que se comunican entre si
+  a través de una base de datos.
+
+CRM (Customer Relacionship Management)
+--------------------------------------
+Software que gestiona interaciones con los clientes.
+- Almacena información de clientes y registra visitas, llamadas, emails, etc.
+- Reune información valiosa sobre las preferencias de los clientes.
+- Ayuda a tomar decisiones para mejorar la rentabilidad de la empresa.
+- Integrado como módulo en los ERP.
+
+WMS (Warehouse management system)
+---------------------------------
+Sistema Gestión de Almacen. Encargado de las actividades de logísticas.
+- Coordinación, gestión y transporte de los bienes comerciales desde un 
+  punto de distribución hasta el cliente final.
+- Pueden gestionar ubicaciones de localización física de productos.
+- Integrado como módulo en los ERP.
+
+DMS (Document Management System)
+--------------------------------
+Sistema de gestión de documentos. 
+- Permite al usuario consultar en todo momento los documentos implicados
+  en una transacción sin necesidad de buscar archivos físicos.
+- Integrado como módulo en los ERP.
+
+BPM (Bussiness Management System)
+---------------------------------
+Gestión de procesos empresariales.

@@ -1,0 +1,8 @@
+PASOS DE EJERCICIO ORDENADORES SGE
+1. Inventario a recibir de los Discos duros y Placas bases. IMPRIMIR ALBARÁN
+2. Crear producción del PCmin Basic, 100und. , con los productos a consumir (2 disco duro, 1 monitor, 1 torre) IMPRIMIR ORDEN PRODUCCION
+3. Inventario a recibir (disco duro 200und) IMPRIMIR ALBARAN
+   Inventario a recibir (monitor 100 und) IMPRIMIR ALBARAN
+   Inventario a recibir (monitor 100 und) IMPRIMIR ALBARAN
+4. Crear un diario de facturas para poder crear facturas. Configuracion > Diario Contable > Crear
+5. Ajustes > Facturacion/Contabilidad > comprobar que aparecen los paquetes
