@@ -1,8 +1,3 @@
 NOMBRE;COSTO;CATEG.;PROVEEDOR
-Pata;0.15;4;Patas S.A
-Tabla;0.5;2;Tablas S.A
-Cojin;1;1;Confort S.A
-Cable;0.20;3;Luz S.A
-Pintura;0.10;6;Montana S.A
-Tela;0.10;2;Telas S.A.
-Puerta;2;3;Puertas S.A
+Placa Base;9;1;ASUS
+Procesador;200;6;ASUS
