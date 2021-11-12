@@ -119,6 +119,7 @@ def introComp():
 
 ## FUNCIÓN 1, PRESUPUESTO TOTAL NECESARIO PARA LA PRODUCCION DE ESE MES
 def presupMes():
+    visuCsvProductos()
     return
 
 ## FUNCIÓN 2, PRESUPUESTO TOTAL POR PROVEEDOR

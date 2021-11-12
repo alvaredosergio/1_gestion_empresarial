@@ -15,11 +15,10 @@ while True:
                 print("NOMBRE\t\tPRD.MENSUAL\tCOMPONENTES")
                 for p in visuCsvProductos():
                     print (p)
-
                     print("\n_______________________________________________________________________________\n0. Atrás")
             elif inp01 == 2:
                 visuCsvComponentes()
-                print("\n__________________________________________________________\n0. Atrás")
+                print("\n_____________________________________________________________\n0. Atrás")
             elif inp01 == 0:
                 break
     elif inp == 2:
