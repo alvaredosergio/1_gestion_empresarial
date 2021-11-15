@@ -1,5 +1,5 @@
 class Producto:
-    def __init__(self, nombre,prodMen,componentes):
+    def __init__(self, nombre,prodMen:int,componentes):
         self.nombre = nombre
         self.prodMen = prodMen
         self.componentes = componentes
@@ -16,9 +16,9 @@ class Producto:
         return todoProd
 
     def __str__(self):
-        return self.nombre + "\t" + self.prodMen + "\t\t" + self.listarComponentes()
+        return self.nombre + "\t" + str(self.prodMen) + "\t\t" + self.listarComponentes()
 
     def toCSV(self):
-        return self.nombre + ";" + self.prodMen + ";" + self.listarComponentes() + "\n"
+        return self.nombre + ";" + str(self.prodMen) + ";" + self.listarComponentes() + "\n"
 
         

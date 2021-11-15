@@ -15,10 +15,13 @@ while True:
                 print("NOMBRE\t\tPRD.MENSUAL\tCOMPONENTES")
                 for p in visuCsvProductos():
                     print (p)
-                    print("\n_______________________________________________________________________________\n0. Atrás")
+                print("________\n0. Atrás")
             elif inp01 == 2:
-                visuCsvComponentes()
-                print("\n_____________________________________________________________\n0. Atrás")
+                os.system ("cls")
+                print("NOMBRE\t\tCOSTO\t\tCATEGORIA\tPROVEEDOR")
+                for com in visuCsvComponentes():
+                    print(com)
+                print("________\n0. Atrás")
             elif inp01 == 0:
                 break
     elif inp == 2:
@@ -39,11 +42,20 @@ while True:
         while True:
             inp01 = checkearInt(input())
             if inp01 == 1:
-                print("f.1")
+                os.system ("cls")
+                print("Presupuesto TOTAL de la producción mensual: ")
+                print("-------------------------------------------")
+                print(str(presuTotal()) + " €")
+                print("________\n0. Atrás")
             elif inp01 == 2:
-                print("f.2")
+                os.system ("cls")
+                presProveedor()
+                print("________\n0. Atrás")
             elif inp01 == 3:
-                print("f.3")
+                os.system ("cls")
+                inp31 = int(input("Escriba el presupuesto anual esperado:"))
+                calcularExcedentes(inp31)
+                print("________\n0. Atrás")
             elif inp01 == 0:
                 break
     elif inp == 0:

@@ -6,7 +6,7 @@ class Componente:
         self.proveedor = proveedor
 
     def toList(self):
-        todoComp = "[" + self.nombre + "," + self.costo + "," + self.categoria + "," + self.proveedor + "]"
+        todoComp = "[" + self.nombre + "," + str(self.costo) + "," + self.categoria + "," + self.proveedor + "]"
         return todoComp
 
     def __str__(self):

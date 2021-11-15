@@ -1,0 +1,21 @@
+NOMBRE;COSTO;CATEG.;PROVEEDOR
+Placa Base;90;1;ASUS
+Placa Base;95;1;Corsair
+Placa Base;60;1;Intel
+Placa Base;150;1;MSI
+Placa Base;60;1;PBell
+Procesador;200;2;ASUS
+Procesador;250;2;Corsair
+Procesador;180;2;Intel
+Procesador;280;2;MSI
+Procesador;120;2;PBell
+F.Alimentacion;60;3;ASUS
+F.Alimentacion;70;3;Corsair
+F.Alimentacion;50;3;Intel
+F.Alimentacion;80;3;MSI
+F.Alimentacion;60;3;PBell
+Disco SSD;70;4;ASUS
+Disco SSD;70;4;MSI
+Disco HDD;80;4;Corsair
+Disco HDD;40;4;Intel
+Disco HDD;40;4;PBell

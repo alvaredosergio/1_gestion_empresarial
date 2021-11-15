@@ -1,0 +1,6 @@
+NOMBRE;PRD.MEN;COMPONT
+ASUS 720;3;[[Placa Base,90,1,ASUS],[Procesador,200,2,ASUS],[F.Alimentacion,60,3,ASUS],[SSD,70,4,ASUS]]
+Corsair 100;5;[[Placa Base,95,1,Corsair],[Procesador,250,2,Corsair],[F.Alimentacion,70,3,Corsair],[HDD,40,4,Corsair]]
+Intel 25;7;[[Placa Base,60,1,Intel],[Procesador,180,2,Intel],[F.Alimentacion,50,3,Intel],[HDD,40,4,Intel]]
+MSI 120P;2;[[Placa Base,150,1,MSI],[Procesador,280,2,MSI],[F.Alimentacion,80,3,MSI],[SSD,80,4,MSI]]
+PBell Pro;15;[[Placa Base,60,1,PBell],[Procesador,120,2,PBell],[F.Alimentacion,60,3,PBell],[HDD,50,4,PBell]]
